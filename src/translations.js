@@ -4,8 +4,9 @@ import nl from './locales/nl.json';
 import ru from './locales/ru.json';
 import da from './locales/da.json';
 import sl from './locales/sl.json';
+import zh from './locales/zh.json';
 
-const LOCALES = { en, de, nl, ru, da, sl };
+const LOCALES = { en, de, nl, ru, da, sl, zh };
 
 export function t(hass, key) {
   const lang = hass?.language || 'en';
